@@ -11,6 +11,7 @@ public class DemoController {
     // define a private field for the dependency
     private Coach myCoach;
 
+    //method name can be anything
     @Autowired
     public void setCoach(Coach theCoach) {
         myCoach = theCoach;
